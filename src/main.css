@@ -1,0 +1,18 @@
+body {
+    background-color: #bbb;
+    margin: 0;
+}
+.modal-body {
+    background-color:rgba(0,0,0,0.5); /* black with some transparency */
+    height:100vh; /* take up the whole width of the screen */
+    width:100vw;  /* take up the whole height of the screen */
+    position: fixed; /* The element is positioned at the top left of the screen */
+    display:flex; /* we want to center the child div*/
+    align-items:center; /* center the child div horizontally*/
+    justify-content: center; /* center the child div vertically */
+}
+.modal-container {
+    padding:100px;
+    background-color:white;
+
+}
