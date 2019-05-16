@@ -10,6 +10,7 @@ class App extends Component {
         let modal = undefined
         if (this.state.triggered) {
             // modal is reassigned if triggered is true
+            // see modal-body in main.css for the css magic that makes a modal appear the way it does
             modal = (<div className='modal-body'>
                 <div className="modal-container">
                     modal text
